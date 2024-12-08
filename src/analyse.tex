@@ -1,0 +1,81 @@
+%! Author = serox
+%! Date = 08/12/2024
+
+
+\chapter{Mesures}
+
+
+\section{Méthodologie}
+
+
+\section{Analyse des résultats}
+
+
+\begin{table}[h!]
+    \centering
+    \label{tab:comparaison_materiaux}
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
+        \hline
+        \textbf{Matériau} & \textbf{Force maximale avant rupture (N)} & \textbf{Allongement maximal avant rupture (\%)} \\ \hline
+        Fibre de carbone  & $21\ 149 \pm 106$                         & $0,673 \pm 0,003$                               \\ \hline
+        Fibre de verre    & $10\ 286 \pm 52$                          & $1,84 \pm 0,01$                                 \\ \hline
+        Aluminium         & $9\ 584 \pm 48$                           & $9,54 \pm 0,05$                                 \\ \hline
+    \end{tabular}
+    \caption{Comparaison des propriétés mécaniques des matériaux testés}
+\end{table}
+
+\begin{figure}[!htb]
+    \centering
+    \include{data/glassfiber}
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \include{data/carbonfiber}
+\end{figure}
+\begin{figure}[!htb]
+    \centering
+    \include{data/aluminium}
+\end{figure}
+
+\subsection{Résistance à la traction (force maximale avant rupture)}
+
+\textbf{Fibre de carbone} : Avec une résistance maximale de \textbf{21 149 N $\pm$ 106}, la fibre de carbone se distingue par une capacité à supporter des charges élevées, soit environ \textbf{2 fois plus} que la fibre de verre et \textbf{2,2 fois plus} que l’aluminium.
+
+\textbf{Fibre de verre} : La fibre de verre supporte une force maximale de \textbf{10 286 N $\pm$ 52}, ce qui la place au second rang, mais elle reste bien en deçà de la fibre de carbone en termes de performance.
+
+\textbf{Aluminium} : L’aluminium, avec une force maximale de \textbf{9 584 N $\pm$ 48}, affiche une résistance légèrement inférieure à celle de la fibre de verre.
+
+\subsection{Allongement maximal avant rupture}
+
+\textbf{Fibre de verre} : L’allongement maximal de \textbf{1,84 \% $\pm$ 0,01} montre que ce matériau est plus ductile que la fibre de carbone, mais reste bien moins élastique que l’aluminium.
+
+\textbf{Fibre de carbone} : Avec un allongement de seulement \textbf{0,673 \% $\pm$ 0,003}, la fibre de carbone est très rigide et casse après une faible déformation, ce qui peut limiter son usage dans des applications nécessitant flexibilité ou absorption d’énergie.
+
+\textbf{Aluminium} : L’aluminium affiche une capacité d’allongement bien supérieure, à \textbf{9,54 \% $\pm$ 0,05}, témoignant d’une grande ductilité. Cela le rend idéal pour des applications où une déformation importante est nécessaire avant rupture.
+
+
+\section{Perspectives avec la masse des matériaux}
+La masse étant un paramètre primordial et une contrainte importante dans l'aéronautique, il est important de la prendre en compte.
+Ainsi, afin d'obtenir une donnée plus pertinente dans ce cadre particulier, nous avons voulu comparer le rapport entre les performances mécaniques des matériaux et leur masse volumique.
+Nous avons donc coupé des échantillons de composite à renfort en de fibre de verre et en fibre de carbone et mesurer leurs dimensions ainsi que leur masse :
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Matériau} & \textbf{Longueur (mm)} & \textbf{Largeur (mm)} & \textbf{Épaisseur (mm)} & \textbf{Masse (g)} \\ \hline
+        Fibre de carbone  & 21,9                   & 29                    & 4,51                    & 4,076              \\ \hline
+        Fibre de verre    & 22,46                  & 30,29                 & 2,86                    & 2,67               \\ \hline
+    \end{tabular}
+    \caption{Dimensions et masse des matériaux analysés}
+    \label{tab:dimensions_masse}
+\end{table}
+
+\noindent
+A l'aide de la formule du volume : \[ V=L\cdot l\cdot h \] \\
+Et de la masse volumique : \[\rho = \frac{M}{V}\]
+On obtient:
+\[
+    V_{carbone} = 22.46\cdot 30.29 \cdot 2.86 = 1938.27 \unit{10} \\
+    V_{verre} = 22.46\cdot 30.29 \cdot 2.86 = 1938.27 mm^3
+\]

@@ -2,18 +2,23 @@
 %! Date = 24/09/2024
 
 % Preamble
-\documentclass[11pt]{report}
+\documentclass[a4paper, 11pt]{report}
 
 % Packages
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{svg}
 \usepackage{fancyhdr} % En-têtes et pieds de page
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}   % Encodage du fichier source (UTF-8)
+\usepackage[utf8]{inputenc}
 \usepackage[french]{babel}
 \usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\usepackage{array}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage[squaren,Gray]{SIunits}
 
 %\titleformat{\chapter}[display] % [display] pour un format de titre de chapitre
 %  {\normalfont\huge\bfseries}    % Style du titre (par exemple, gros et en gras)
@@ -21,6 +26,8 @@
 %  {0pt}                            % Pas d'espacement avant le titre
 %  {}                              % Pas de format spécifique après le titre
 
+
+\geometry{hmargin=2.54cm,vmargin=2.5cm}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{Nom du projet}
@@ -31,7 +38,9 @@
     \input{titlepage}
 
     \tableofcontents
-    \newpage
 
     \input{introduction}
+    \input{definition}
+    \input{avantage-inconveniant}
+    \input{analyse}
 \end{document}
