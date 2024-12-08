@@ -2,43 +2,42 @@
 %! Date = 24/09/2024
 
 % Preamble
-\documentclass[11pt]{article}
+\documentclass[11pt]{report}
 
 % Packages
 \usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage{fancyhdr} % En-têtes et pieds de page
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}   % Encodage du fichier source (UTF-8)
+\usepackage[french]{babel}
+\usepackage{pgfplots}
+
+
+
+
+
+
+
+\titleformat{\chapter}[display] % [display] pour un format de titre de chapitre
+  {\normalfont\huge\bfseries}    % Style du titre (par exemple, gros et en gras)
+  {}                              % Ne pas afficher le numéro
+  {0pt}                            % Pas d'espacement avant le titre
+  {}                              % Pas de format spécifique après le titre
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Nom du projet}
+\fancyfoot[C]{\thepage}
 
 % Document
 \begin{document}
+    \input{titlepage}
 
-\begin{titlepage}
-    \begin{center}
-        \vspace*{1cm}
+    \tableofcontents
+    \newpage
 
-        \Huge
-        \textbf{Les matériaux composites dans l'aéronautique sont-ils
-        bénéfiques ou nuisibles ?}
-
-        \vspace{0.5cm}
-        \LARGE
-        Sujet 30 de NP90
-
-        \vspace{1.5cm}
-
-        \textbf{Rouyer Rémy \\ Alexandre \\ Nicolas}
-
-        \vfill
-
-        A thesis presented for the degree of\\
-        Doctor of Philosophy
-
-        \vspace{0.8cm}
-
-
-        \Large
-        Université de Technologie de Compiègne\\
-        A2024
-
-    \end{center}
-\end{titlepage}
-
+    \input{introduction}
 \end{document}
