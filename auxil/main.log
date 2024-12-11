@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  8 DEC 2024 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.24)  11 DEC 2024 13:26
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **./main.tex
@@ -9,8 +9,8 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
-(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count194
 \c@chapter=\count195
@@ -164,8 +164,21 @@ ty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ) (C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/ifplatform\ifplatform.s
+ty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.s
+ty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
 \c@svg@param@lastpage=\count281
 \svg@box=\box54
 \c@svg@param@currpage=\count282
@@ -824,48 +837,196 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 aryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplotstable.
+sty
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
+Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing
+ (1.18.1)
+
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstable.code.tex
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstable.coltype.code.tex))
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen287
+\ar@mcellbox=\box67
+\extrarowheight=\dimen288
+\NC@list=\toks45
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box68
+))
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count332
+\float@exts=\toks46
+\float@box=\box69
+\@float@everytoks=\toks47
+\@floatcapt=\box70
+)
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count333
+\Gm@cntv=\count334
+\c@Gm@tempcnt=\count335
+\Gm@bindingoffset=\dimen289
+\Gm@wd@mp=\dimen290
+\Gm@odd@mp=\dimen291
+\Gm@even@mp=\dimen292
+\Gm@layoutwidth=\dimen293
+\Gm@layoutheight=\dimen294
+\Gm@layouthoffset=\dimen295
+\Gm@layoutvoffset=\dimen296
+\Gm@dimlist=\toks48
+
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2024-11-19 v3.3.24 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count336
+\l__siunitx_number_exponent_fixed_int=\count337
+\l__siunitx_number_min_decimal_int=\count338
+\l__siunitx_number_min_integer_int=\count339
+\l__siunitx_number_round_precision_int=\count340
+\l__siunitx_number_lower_threshold_int=\count341
+\l__siunitx_number_upper_threshold_int=\count342
+\l__siunitx_number_group_first_int=\count343
+\l__siunitx_number_group_size_int=\count344
+\l__siunitx_number_group_minimum_int=\count345
+\l__siunitx_angle_tmp_dim=\dimen297
+\l__siunitx_angle_marker_box=\box71
+\l__siunitx_angle_unit_box=\box72
+\l__siunitx_compound_count_int=\count346
+
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box73
+\l__siunitx_table_tmp_dim=\dimen298
+\l__siunitx_table_column_width_dim=\dimen299
+\l__siunitx_table_integer_box=\box74
+\l__siunitx_table_decimal_box=\box75
+\l__siunitx_table_uncert_box=\box76
+\l__siunitx_table_before_box=\box77
+\l__siunitx_table_after_box=\box78
+\l__siunitx_table_before_dim=\dimen300
+\l__siunitx_table_carry_dim=\dimen301
+\l__siunitx_unit_tmp_int=\count347
+\l__siunitx_unit_position_int=\count348
+\l__siunitx_unit_total_int=\count349
+)
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/siunits\SIunits.sty
+Package: SIunits 2007/12/02 v1.36 Support for the International System of units
+ (MH)
+
+
+\@qskwidth=\skip66
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 46.
+\symgreek=\mathgroup4
+LaTeX Info: Redefining \unit on input line 113.
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/siunits\SIunits.cfg)
+Option `squaren' provided!
+Option `Gray' provided!
+) (C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box79
+\beforetitleunit=\skip67
+\aftertitleunit=\skip68
+\ttl@plus=\dimen302
+\ttl@minus=\dimen303
+\ttl@toksa=\toks49
+\titlewidth=\dimen304
+\titlewidthlast=\dimen305
+\titlewidthfirst=\dimen306
+)
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen307
+\captionmargin=\dimen308
+\caption@leftmargin=\dimen309
+\caption@rightmargin=\dimen310
+\caption@width=\dimen311
+\caption@indent=\dimen312
+\caption@parindent=\dimen313
+\caption@hangindent=\dimen314
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count350
+\c@continuedfloat=\count351
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count352
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count353
+) (C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip69
+\enit@outerparindent=\dimen315
+\enit@toks=\toks50
+\enit@inbox=\box80
+\enit@count@id=\count354
+\enitdp@description=\count355
+)
 (C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count332
-\l__pdf_internal_box=\box67
+\l__color_backend_stack_int=\count356
+\l__pdf_internal_box=\box81
 ) (C:/Users\serox\IdeaProjects\NP90\auxil\main.aux
-(C:/Users\serox\IdeaProjects\NP90\auxil\data/glassfiber.aux))
+(C:/Users\serox\IdeaProjects\NP90\auxil\data/carbonfiber.aux)
+(C:/Users\serox\IdeaProjects\NP90\auxil\data/glassfiber.aux)
+(C:/Users\serox\IdeaProjects\NP90\auxil\data/aluminium.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 (C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count333
-\scratchdimen=\dimen287
-\scratchbox=\box68
-\nofMPsegments=\count334
-\nofMParguments=\count335
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count336
-\MPscratchDim=\dimen288
-\MPnumerator=\count337
-\makeMPintoPDFobject=\count338
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count357
+\scratchdimen=\dimen316
+\scratchbox=\box82
+\nofMPsegments=\count358
+\nofMParguments=\count359
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count360
+\MPscratchDim=\dimen317
+\MPnumerator=\count361
+\makeMPintoPDFobject=\count362
+\everyMPtoPDFconversion=\toks52
 )
 (C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -877,121 +1038,273 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 53.
  (C:/Users\serox\IdeaProjects\NP90\auxil\main.out)
 (C:/Users\serox\IdeaProjects\NP90\auxil\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-LaTeX Info: Redefining \degres on input line 30.
-LaTeX Info: Redefining \up on input line 30.
+LaTeX Info: Redefining \degres on input line 53.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 53.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 53.
+LaTeX Info: Redefining \up on input line 53.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 30.
+ on input line 53.
 
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=702.78308pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+main.tex:53: Package siunitx Error: Package 'SIunits' incompatible.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.53 \begin{document}
+                     
+
+The SIunits package and siunitx are incompatible.
+
+
+
+(C:\Users\serox\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-french.trsl
+File: translations-basic-dictionary-french.trsl (french translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `french'. on input line 53.
+
+Option `squaren' provided! 
+ Command \squaren defined by SIunits package!
+
+
+main.tex:53: LaTeX Error: Command \micro already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Option `Gray' provided! 
+ Command \Gray defined by SIunits package!
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 (titlepage.tex
-
-Package svg Warning: You didn't enable `shell escape' (or `write18')
-(svg)                so it wasn't possible to launch the Inkscape export
-(svg)                for `../ressources/images/Logo_UTC_2018.svg' on input line
- 26.
-
-
-titlepage.tex:26: Package svg Error: File `Logo_UTC_2018_svg-tex.pdf' is missin
-g.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 ...h]{../ressources/images/Logo_UTC_2018.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Logo_UTC_2018_svg-tex.pdf'
-although `../ressources/images/Logo_UTC_2018.svg' was found.
-
-
-titlepage.tex:26: Package svg Error: File `Logo_UTC_2018_svg-tex.pdf_tex' is mi
-ssing.
-
-See the svg package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 ...h]{../ressources/images/Logo_UTC_2018.svg}
-                                                  
-Did you run the export with Inkscape? There's no file
-`./svg-inkscape/Logo_UTC_2018_svg-tex.pdf_tex'
-although `../ressources/images/Logo_UTC_2018.svg' was found.
-
-
+<../ressources/images/composite.png, id=54, 633.36626pt x 333.245pt>
+File: ../ressources/images/composite.png Graphic file (type png)
+<use ../ressources/images/composite.png>
+Package pdftex.def Info: ../ressources/images/composite.png  used on input line
+ 23.
+(pdftex.def)             Requested size: 317.0764pt x 166.83057pt.
+Package svg Info: Last page of `./svg-inkscape/Logo_UTC_2018_svg-tex.pdf' is 1 
+on input line 33.
+ (svg-inkscape/Logo_UTC_2018_svg-tex.pdf_tex
+<./svg-inkscape/Logo_UTC_2018_svg-tex.pdf, id=56, page=1, 362.78195pt x 91.5463
+9pt>
+File: ./svg-inkscape/Logo_UTC_2018_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/Logo_UTC_2018_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/Logo_UTC_2018_svg-tex.pdf , page1 used 
+on input line 56.
+(pdftex.def)             Requested size: 135.89185pt x 34.29208pt.
+)
 
 [1
 
-{C:/Users/serox/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-(C:/Users\serox\IdeaProjects\NP90\auxil\main.toc)
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
-
+{C:/Users/serox/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../ressource
+s/images/composite.png> <./svg-inkscape/Logo_UTC_2018_svg-tex.pdf>])
+(introduction.tex)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34     \newpage
-                  [1
+l.58     \tableofcontents
+                          [1
 
-] (introduction.tex
-Chapitre 1.
+] (C:/Users\serox\IdeaProjects\NP90\auxil\main.toc)
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
+(definition.tex
 
 [2
 
 ]
+Chapitre I.
+
+Overfull \hbox (6.51392pt too wide) in paragraph at lines 5--5
+|[]\T1/cmr/bx/n/24.88 Qu'est ce qu'un ma-t�-riau com-po-site ?| 
+ []
+
+
+
+[3
+
+]
+
+definition.tex:96: LaTeX Error: Unicode character ᵉ (U+1D49)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ...t des matériaux modernes pendant le 20ᵉ
+                                                   siècle a permis la créa...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+) (avantage-inconveniant.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
+[4]
+Chapitre II.
+
+Overfull \hbox (23.137pt too wide) in paragraph at lines 1--1
+|[]\T1/cmr/bx/n/24.88 Avantages et in-con-v�-nients th�o-riques| 
+ []
+
+
+
+[5
+
+]) (analyse.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+Chapitre III.
+<../ressources/images/eprouvette_fibre_carbone.jpg, id=123, 822.82407pt x 183.6
+8625pt>
+File: ../ressources/images/eprouvette_fibre_carbone.jpg Graphic file (type jpg)
+
+<use ../ressources/images/eprouvette_fibre_carbone.jpg>
+Package pdftex.def Info: ../ressources/images/eprouvette_fibre_carbone.jpg  use
+d on input line 14.
+(pdftex.def)             Requested size: 181.18454pt x 40.44753pt.
+<../ressources/images/eprouvette_fibre_verre.jpg, id=124, 822.82407pt x 177.663
+76pt>
+File: ../ressources/images/eprouvette_fibre_verre.jpg Graphic file (type jpg)
+<use ../ressources/images/eprouvette_fibre_verre.jpg>
+Package pdftex.def Info: ../ressources/images/eprouvette_fibre_verre.jpg  used 
+on input line 19.
+(pdftex.def)             Requested size: 181.18454pt x 39.12138pt.
+<../ressources/images/extensometre.jpg, id=125, 3485.02pt x 4641.34pt>
+File: ../ressources/images/extensometre.jpg Graphic file (type jpg)
+<use ../ressources/images/extensometre.jpg>
+Package pdftex.def Info: ../ressources/images/extensometre.jpg  used on input l
+ine 32.
+(pdftex.def)             Requested size: 181.18454pt x 241.28734pt.
+<../ressources/images/retroline.jpg, id=126, 2478.25874pt x 3159.805pt>
+File: ../ressources/images/retroline.jpg Graphic file (type jpg)
+<use ../ressources/images/retroline.jpg>
+Package pdftex.def Info: ../ressources/images/retroline.jpg  used on input line
+ 37.
+(pdftex.def)             Requested size: 181.18454pt x 230.99652pt.
+
+
+[7
+
+ <../ressources/images/eprouvette_fibre_carbone.jpg> <../ressources/images/epro
+uvette_fibre_verre.jpg> <../ressources/images/extensometre.jpg> <../ressources/
+images/retroline.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\T1/cmr/bx/n/12 Force maxi-male
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+\openout2 = `data/carbonfiber.aux'.
+
+ (data/carbonfiber.tex)
 \openout2 = `data/glassfiber.aux'.
 
  (data/glassfiber.tex)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4
-
-]
-\openout2 = `data/carbonfiber.aux'.
-
- (data/carbonfiber.tex)
+[9
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[5
-
+\@writefile{lof}{\contentsline {figure}{\numberline {III.3}{\ignorespaces Défo
+rmation de la fibre de carbone}}{9}{figure.caption.7}\protected@file@percent }
 
 
 ]
@@ -1001,51 +1314,209 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6
+[10
+
+
+\@writefile{lof}{\contentsline {figure}{\numberline {III.4}{\ignorespaces Défo
+rmation de la fibre de verre}}{10}{figure.caption.8}\protected@file@percent }
 
 
 
-]) (C:/Users\serox\IdeaProjects\NP90\auxil\main.aux
-(C:/Users\serox\IdeaProjects\NP90\auxil\data/glassfiber.aux)
+\@writefile{lof}{\contentsline {figure}{\numberline {III.5}{\ignorespaces Défo
+rmation de l'aluminium}}{10}{figure.caption.9}\protected@file@percent }
+
+
+]
+<../ressources/images/aluminium_rupture.jpg, id=172, 298.11375pt x 408.77719pt>
+
+File: ../ressources/images/aluminium_rupture.jpg Graphic file (type jpg)
+<use ../ressources/images/aluminium_rupture.jpg>
+Package pdftex.def Info: ../ressources/images/aluminium_rupture.jpg  used on in
+put line 143.
+(pdftex.def)             Requested size: 144.95316pt x 198.76192pt.
+<../ressources/images/carbone_rupture.jpg, id=173, 823.075pt x 1097.09875pt>
+File: ../ressources/images/carbone_rupture.jpg Graphic file (type jpg)
+<use ../ressources/images/carbone_rupture.jpg>
+Package pdftex.def Info: ../ressources/images/carbone_rupture.jpg  used on inpu
+t line 148.
+(pdftex.def)             Requested size: 149.48035pt x 199.24373pt.
+<../ressources/images/verre_rupture.jpg, id=174, 307.1475pt x 413.29407pt>
+File: ../ressources/images/verre_rupture.jpg Graphic file (type jpg)
+<use ../ressources/images/verre_rupture.jpg>
+Package pdftex.def Info: ../ressources/images/verre_rupture.jpg  used on input 
+line 153.
+(pdftex.def)             Requested size: 149.48035pt x 201.14107pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]|\T1/cmr/bx/n/12 Longueur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]|\T1/cmr/bx/n/12 Largeur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]|\T1/cmr/bx/n/12 �paisseur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]|\T1/cmr/bx/n/12 Masse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
+[]|\T1/cmr/m/n/12 Fibre de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+[]|\T1/cmr/m/n/12 Fibre de
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11 <../ressources/images/aluminium_rupture.jpg> <../ressources/images/carbone_
+rupture.jpg> <../ressources/images/verre_rupture.jpg>]
+analyse.tex:209: Extra }, or forgotten \right.
+l.209 ...{i=1} {\left(\frac{\delta f}{\delta X_i}}
+                                                  \right)^2 (\delta X_i)^2}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+analyse.tex:210: Missing } inserted.
+<inserted text> 
+                }
+l.210 \]
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+[]|\T1/cmr/bx/n/12 Rapport Per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+\T1/cmr/bx/n/12 for-mance/Masse
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13]) (conclusion.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14]
+Chapitre IV.
+) (C:/Users\serox\IdeaProjects\NP90\auxil\main.bbl
+
+[15
+
+])
+
+[16
+
+] (C:/Users\serox\IdeaProjects\NP90\auxil\main.aux
 (C:/Users\serox\IdeaProjects\NP90\auxil\data/carbonfiber.aux)
+(C:/Users\serox\IdeaProjects\NP90\auxil\data/glassfiber.aux)
 (C:/Users\serox\IdeaProjects\NP90\auxil\data/aluminium.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BBD688C3F3CFC43637DD460F54A2C498;1168.
+(rerunfilecheck)             Checksum: B413F09F148044A7429F640CFC8B0950;2106.
  ) 
 Here is how much of TeX's memory you used:
- 33398 strings out of 473899
- 790032 string characters out of 5726500
- 2055951 words of memory out of 5000000
- 55721 multiletter control sequences out of 15000+600000
- 568435 words of font info for 57 fonts, out of 8000000 for 9000
+ 41171 strings out of 473899
+ 992348 string characters out of 5726500
+ 2442180 words of memory out of 5000000
+ 63337 multiletter control sequences out of 15000+600000
+ 574918 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 95i,11n,101p,702b,1854s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
-1440.pk> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx2074.pk> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm1095.pk> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecrm1440.pk> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\serox\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/serox/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/serox/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/serox/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/s
-erox/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on C:/Users\serox\IdeaProjects\NP90\out\main.pdf (7 pages, 33435
-2 bytes).
+ 95i,19n,101p,994b,2259s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm1000.pk> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1200.pk> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecti1200.pk> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\serox\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\serox\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\serox\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\serox\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\serox\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\
+serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\
+Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk
+> <C:\Users\serox\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2
+488.pk><C:/Users/serox/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmex10.pfb><C:/Users/serox/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb><C:/Users/serox/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/serox/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/serox/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/serox/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/serox/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/sero
+x/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Use
+rs/serox/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Users/serox/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb>
+Output written on C:/Users\serox\IdeaProjects\NP90\out\main.pdf (17 pages, 6061
+865 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 702 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

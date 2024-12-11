@@ -1,8 +1,14 @@
 \begin{tikzpicture}
     \begin{axis}[
         xlabel={Allongement [\%]},
-        ylabel={Force standard [N]}
+        ylabel={Force standard [N]},
+    legend style={font=\footnotesize},
+    legend pos=south east
     ]
+        \addplot[domain=0:0.3, blue, thick] {35232.22226*x};
+        \addplot[domain=0:010, red, thick] {400*x+6300};
+        \addlegendentry{y = 35232x}
+        \addlegendentry{y = 400x+6300}
         \addplot
         [
             only marks,

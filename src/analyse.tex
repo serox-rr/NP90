@@ -1,19 +1,68 @@
-%! Author = serox
-%! Date = 08/12/2024
-
-
 \chapter{Mesures}
 
 
 \section{Méthodologie}
 
 
-\section{Analyse des résultats}
-
-
-\begin{table}[h!]
+Afin de pouvoir estimer la pertinence de matériaux composites par rapport à leur homologue non composites, nous avons pu, grâce à l'équipe du centre de recherche, réaliser des mesures de tractions.
+Pour cela, nous avons utilisé des éprouvettes (figure~\ref{fig:eprouvettes}) composites à renfort en fibre de carbone et fibre de verre, et une éprouvette en aluminium, qui est également un matériau grandement utilisé en aéronautique pour ses propriétés.
+\vspace{10pt}
+\begin{figure}[htb!]
     \centering
-    \label{tab:comparaison_materiaux}
+    \begin{subfigure}[t]{.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../ressources/images/eprouvette_fibre_carbone}
+        \caption{Renfort en fibre de carbone}
+    \end{subfigure}
+    \begin{subfigure}[t]{.4\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../ressources/images/eprouvette_fibre_verre}
+        \caption{Renfort en fibre de verre}
+    \end{subfigure}
+    \caption{Eprouvettes composites utilisés}
+    \label{fig:eprouvettes}
+\end{figure}
+
+Pour effectuer nos mesures, nous avons utilisé la machine de test de matériaux Zwick Roell RetroLine 4505 avec un ordinateur pour l'acquisition des données obtenues.
+
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}[t]{.4\textwidth}
+        \includegraphics[width=\textwidth]{../ressources/images/extensometre}
+        \caption{L'ensemble du montage}
+        \label{fig:montage}
+    \end{subfigure}
+    \begin{subfigure}[t]{.4\textwidth}
+        \includegraphics[width=\textwidth]{../ressources/images/retroline}
+        \caption{Machine de test}
+        \label{fig:machine}
+    \end{subfigure}
+    \caption{}
+\end{figure}
+
+\begin{enumerate}
+    \item Fixation de l’éprouvette :
+    L’éprouvette est maintenue fermement à l’aide de \textit{mors} qui saisissent les extrémités de la pièce à tester, évitant ainsi tout glissement pendant l’essai, ce qui fausserait les mesures.
+    Il nous a par ailleurs fallu vérifier que l'éprouvette était bien droite par rapport à la traverse à l'aide d'un niveau afin de s'assurer que l'on mesure bien la résistance à la traction sur l'axe de l'éprouvette.
+    \item Traction :
+    Une \textit{traverse} mobile se déplace pour appliquer une force de traction sur l'éprouvette.
+    Dans nos essais, cette force a été exercée de manière continue et croissante, jusqu’à atteindre le seuil de rupture de la pièce fixé à 80\% de la charge maximale.
+
+    \item Mesure de la force :
+    Une \textit{cellule de force} montée sur le bras de la machine mesure précisément l’effort appliqué sur l’échantillon au cours de la traction.
+    Le capteur est réglé à une fréquence d'échantillonnage de 4 Hz.
+    Nous aurons donc quatre mesures par seconde, ce qui est amplement suffisant pour nos besoins.
+
+    \item Mesure de la déformation :
+    Un \textit{extensomètre} est utilisé pour enregistrer la déformation de l’échantillon sous l’effet de la traction. Cet appareil permet de suivre l’allongement du matériau avec une grande précision.
+\end{enumerate}
+
+
+\section{Analyse des résultats}
+En premier lieu, nous avons obtenu un tableau présentant les valeurs maximales de contraintes que les matériaux ont pu supporter lors des tests, correspondant à leur limite de performance brute :
+\begin{table}[h]
+    \centering
     \renewcommand{\arraystretch}{1.5}
     \begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|}
         \hline
@@ -22,60 +71,230 @@
         Fibre de verre    & $10\ 286 \pm 52$                          & $1,84 \pm 0,01$                                 \\ \hline
         Aluminium         & $9\ 584 \pm 48$                           & $9,54 \pm 0,05$                                 \\ \hline
     \end{tabular}
-    \caption{Comparaison des propriétés mécaniques des matériaux testés}
+    \caption{Résistance maximal à la traction des matériaux testés\label{tab:comparaison_materiaux}}
 \end{table}
-
-\begin{figure}[!htb]
-    \centering
-    \include{data/glassfiber}
-\end{figure}
-\begin{figure}[!htb]
-    \centering
-    \include{data/carbonfiber}
-\end{figure}
-\begin{figure}[!htb]
-    \centering
-    \include{data/aluminium}
-\end{figure}
 
 \subsection{Résistance à la traction (force maximale avant rupture)}
 
-\textbf{Fibre de carbone} : Avec une résistance maximale de \textbf{21 149 N $\pm$ 106}, la fibre de carbone se distingue par une capacité à supporter des charges élevées, soit environ \textbf{2 fois plus} que la fibre de verre et \textbf{2,2 fois plus} que l’aluminium.
+\begin{itemize}
+    \item \textbf{Fibre de carbone} : Avec une résistance maximale de \textbf{21 149 N $\pm$ 106}, la fibre de carbone se distingue par une capacité à supporter des charges élevées, soit environ \textbf{2 fois plus} que la fibre de verre et \textbf{2,2 fois plus} que l’aluminium.
 
-\textbf{Fibre de verre} : La fibre de verre supporte une force maximale de \textbf{10 286 N $\pm$ 52}, ce qui la place au second rang, mais elle reste bien en deçà de la fibre de carbone en termes de performance.
+    \item \textbf{Fibre de verre} : La fibre de verre supporte une force maximale de \textbf{10 286 N $\pm$ 52}, ce qui la place au second rang, mais elle reste bien en deçà de la fibre de carbone en termes de performance.
 
-\textbf{Aluminium} : L’aluminium, avec une force maximale de \textbf{9 584 N $\pm$ 48}, affiche une résistance légèrement inférieure à celle de la fibre de verre.
+    \item \textbf{Aluminium} : L’aluminium, avec une force maximale de \textbf{9 584 N $\pm$ 48}, affiche une résistance légèrement inférieure à celle de la fibre de verre.
+
+\end{itemize}
 
 \subsection{Allongement maximal avant rupture}
 
-\textbf{Fibre de verre} : L’allongement maximal de \textbf{1,84 \% $\pm$ 0,01} montre que ce matériau est plus ductile que la fibre de carbone, mais reste bien moins élastique que l’aluminium.
+\begin{itemize}
+\item \textbf{Fibre de verre} : L’allongement maximal de \textbf{1,84 \% $\pm$ 0,01} montre que ce matériau est plus ductile que la fibre de carbone, mais reste bien moins élastique que l’aluminium.
 
-\textbf{Fibre de carbone} : Avec un allongement de seulement \textbf{0,673 \% $\pm$ 0,003}, la fibre de carbone est très rigide et casse après une faible déformation, ce qui peut limiter son usage dans des applications nécessitant flexibilité ou absorption d’énergie.
+\item \textbf{Fibre de carbone} : Avec un allongement de seulement \textbf{0,673 \% $\pm$ 0,003}, la fibre de carbone est très rigide et casse après une faible déformation, ce qui peut limiter son usage dans des applications nécessitant flexibilité ou absorption d’énergie.
 
-\textbf{Aluminium} : L’aluminium affiche une capacité d’allongement bien supérieure, à \textbf{9,54 \% $\pm$ 0,05}, témoignant d’une grande ductilité. Cela le rend idéal pour des applications où une déformation importante est nécessaire avant rupture.
+\item \textbf{Aluminium} : L’aluminium affiche une capacité d’allongement bien supérieure, à \textbf{9,54 \% $\pm$ 0,05}, témoignant d’une grande ductilité. Cela le rend idéal pour des applications où une déformation importante est nécessaire avant rupture.
+\end{itemize}
+\subsection{Analyse graphique}
+
+Nous avons également obtenu une liste de points pour chaque matériau.
+Cela nous permet d'obtenir des ensembles de point formant une courbe de déformation en fonction de la force appliquée.
+De là, on peut visualiser des propriétés supplémentaires des matériaux.
+
+\subsubsection{Fibre de carbone}
+\begin{figure}[!htb]
+    \centering
+    \include{data/carbonfiber}
+    \label{fig:plot_carbon}
+\end{figure}
+On remarque graphiquement (figure~\ref{fig:plot_carbon}) un comportement quasiment linéaire (coefficient de corrélation très proche de 1), ce qui indique que la fibre de carbone a un comportement principalement élastique avec peu ou pas de plasticité.
+La pente de la courbe de régression nous indique de plus un module de Young élevé, confirmant la rigidité importante de la fibre de carbone.
+Cependant, on voit qu'autour d'un allongement de 0.6\% que la rupture a lieu brutalement et que la linéarité se brise avec un allongement autour de 0.7\% sans que la force n'augmente, voire vient à baisser.
+
+\subsubsection{Fibre de verre}
+\begin{figure}[!htb]
+    \centering
+    \include{data/glassfiber}
+    \label{fig:plot_glass}
+\end{figure}
+La fibre de verre a un comportement similaire au carbone (figure~\ref{fig:plot_glass}), avec quasi-linéarité, légèrement plus courbé avec un coefficient de corrélation à peine inférieur.
+La pente et donc le module de Young est également moindre, ce qui est cohérent avec ce que nous avons vu précédemment.
+La rupture du matériau a lieu aussi brutalement, avec un arrêt encore plus net que le carbone.
+
+\subsubsection{Aluminum}
+\begin{figure}[!htb]
+    \centering
+    \include{data/aluminium}
+    \label{fig:plot_alu}
+\end{figure}
+Le cas de l'aluminium est différent (figure~\ref{fig:plot_alu}).
+Dans une première phase, le comportement de l'aluminium est très semblable à celui du carbone, formant une droite linéaire dont la pente est quasiment la même jusqu'à environ 0.2\% d'allongement.
+Dans une seconde phase, la première droite est brisée et on peut remarquer à nouveau un comportement cette fois-ci moins linéaire, et surtout dont la croissance est bien plus lente avec une pente près de 80 fois moins élevée.
+Ainsi, le matériau s'allonge bien plus pour une même augmentation de force.
+Ce comportement nous confirme la forte ductilité de l'aluminium, car elle est typique de ce type de matériaux.
+La première phase correspond à la déformation élastique, et la deuxième à la déformation plastique du matériau, qui est celle qui participe le plus à la déformation.
+
+\textbf{Remarque : }on peut remarquer des sortes de paliers dans la force appliquée, qui sont en réalité probablement du bruit, mais n'invalide pas nos conclusions, car on peut parfaitement distinguer une courbe moyenne.
+Pour nous assurer de la validité, il aurait été tout à fait pertinent de réaliser plusieurs fois l'expérience, ce qui n'était pas possible à cause des contraintes de temps et d'accès à la machine.
+
+\subsection{Analyse visuel}
+\begin{figure}[!htb]
+    \centering
+    \begin{subfigure}[t]{.32\textwidth}
+        \includegraphics[width=\textwidth]{../ressources/images/aluminium_rupture}
+        \caption{Aluminium}
+        \label{rupture_aluminium}
+    \end{subfigure}
+    \begin{subfigure}[t]{.33\textwidth}
+        \includegraphics[width=\textwidth]{../ressources/images/carbone_rupture}
+        \caption{Fibre de carbone}
+        \label{rupture_carbone}
+    \end{subfigure}
+    \begin{subfigure}[t]{.33\textwidth}
+        \includegraphics[width=\textwidth]{../ressources/images/verre_rupture}
+        \caption{Rupture de l'aluminium}
+        \label{Fibre de verre}
+    \end{subfigure}
+    \caption{Rupture des matériaux}
+\end{figure}
+
+L'apparence de la rupture nous renseigne aussi sur les différences entre ces matériaux et nous permet de mieux les comprendre.
+
+\smallskip
+Sur les composites, on remarque une rupture droite, mais assez inégale, particulièrement sur la fibre de verre.
+On peut notamment voir les fibres qui se sont séparées de la matrice, mais il n'y a pas de déformation plastique visible, ce qui correspond bien à ce que l'on avait déduit des données de mesures.
+
+\smallskip
+Au contraire, la rupture de l'aluminium est droite, légèrement en biais par rapport à la coupe, et très nette.
+Sur les deux pièces nouvellement formées, une déformation plastique est visible à l'œil nu et on remarque que la coupe n'est pas la même sur les deux pièces.
+
+Cela nous confirme donc encore une fois que la réaction de ces matériaux face à la traction est très différente, ce qui peut répondre à des usages différents.
 
 
 \section{Perspectives avec la masse des matériaux}
 La masse étant un paramètre primordial et une contrainte importante dans l'aéronautique, il est important de la prendre en compte.
 Ainsi, afin d'obtenir une donnée plus pertinente dans ce cadre particulier, nous avons voulu comparer le rapport entre les performances mécaniques des matériaux et leur masse volumique.
-Nous avons donc coupé des échantillons de composite à renfort en de fibre de verre et en fibre de carbone et mesurer leurs dimensions ainsi que leur masse :
+Nous avons donc coupé des échantillons de composite à renfort en fibre de verre et en fibre de carbone et mesuré leurs dimensions ainsi que leur masse :
 \begin{table}[h!]
     \centering
-    \begin{tabular}{|c|c|c|c|c|}
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{|p{2cm}|p{3cm}|p{3cm}|p{3cm}|p{2cm}|}
         \hline
-        \textbf{Matériau} & \textbf{Longueur (mm)} & \textbf{Largeur (mm)} & \textbf{Épaisseur (mm)} & \textbf{Masse (g)} \\ \hline
-        Fibre de carbone  & 21,9                   & 29                    & 4,51                    & 4,076              \\ \hline
-        Fibre de verre    & 22,46                  & 30,29                 & 2,86                    & 2,67               \\ \hline
+        \textbf{Matériau} & \textbf{Longueur (mm$\pm 0.1$)} & \textbf{Largeur (mm$\pm 0.1$)} & \textbf{Épaisseur (mm$\pm 0.1$)} & \textbf{Masse (g$\pm 0.01$)} \\ \hline
+        Fibre de carbone  & 21,9                            & 29,0                           & 4,51                             & 4,076                        \\ \hline
+        Fibre de verre    & 22,46                           & 30,29                          & 2,86                             & 2,67                         \\ \hline
     \end{tabular}
-    \caption{Dimensions et masse des matériaux analysés}
+    \caption{Dimensions et masse des matériaux composites}
     \label{tab:dimensions_masse}
 \end{table}
 
 \noindent
 A l'aide de la formule du volume : \[ V=L\cdot l\cdot h \] \\
-Et de la masse volumique : \[\rho = \frac{M}{V}\]
-On obtient:
+Et de la masse volumique : \[\rho = \frac{m}{V}\]
+On obtient :
+\begin{gather*}
+    V_{carbone} = 21.9\cdot 29\cdot 4.51 =  \qty{2865}{\milli\meter\cubed} = \qty{2.865}{\centi\meter\cubed} \\[5pt]
+    V_{verre} = 22.46\cdot 30.29 \cdot 2.86 =  \qty{1938}{\milli\meter\cubed} =  \qty{1.938}{\milli\meter\cubed}
+\end{gather*}
+\vspace{5pt}
+Ainsi, on obtient à partir des valeurs de masses de la table~\ref{tab:dimensions_masse} :
+\begin{gather*}
+    \rho_{carbone} = \frac {m_{carbone}} {V_{carbone}} = \frac {4.064}{2.865} =  \qty{1.423}{\gram\per\cubic\centi\meter}\\[10pt]
+    \rho_{verre} = \frac {m_{verre}} {V_{verre}} = \frac {2.67}{1.938} = \qty{1.378 }{\gram\per\cubic\centi\meter}
+\end{gather*}
+\vspace{5pt}
+
+Il nous faut également calculer les incertitudes associés.
+On a :
 \[
-    V_{carbone} = 22.46\cdot 30.29 \cdot 2.86 = 1938.27 \unit{10} \\
-    V_{verre} = 22.46\cdot 30.29 \cdot 2.86 = 1938.27 mm^3
+    \Delta Y = \sqrt{\sum_{n}^{i=1} {\left(\frac{\delta f}{\delta X_i}}\right)^2 (\delta X_i)^2}
 \]
+Dans le cas de notre formule, on doit calculer les dérivées partielles de $\rho$ par rapport à chaque variable :
+
+\begin{gather*}
+    \frac{\partial \rho}{\partial m} = \frac{1}{L \cdot l \cdot h}, \quad
+    \frac{\partial \rho}{\partial L} = -\frac{m}{L^2 \cdot l \cdot h}, \quad
+    \frac{\partial \rho}{\partial l} = -\frac{m}{L \cdot l^2 \cdot h}, \quad
+    \frac{\partial \rho}{\partial h} = -\frac{m}{L \cdot l \cdot h^2}
+\end{gather*}
+
+Finalement, on obtient :
+
+\begin{gather*}
+    \Delta \rho = \sqrt{
+        \left( \frac{\Delta m}{L \cdot l \cdot h} \right)^2 +
+        \left( \frac{m \cdot \Delta L}{L^2 \cdot l \cdot h} \right)^2 +
+        \left( \frac{m \cdot \Delta l}{L \cdot l^2 \cdot h} \right)^2 +
+        \left( \frac{m \cdot \Delta h}{L \cdot l \cdot h^2} \right)^2
+    }
+\end{gather*}
+
+Par application numérique :
+\begin{gather*}
+    \Delta \rho_{carbone} = \qty{0.4}{\gram\per\cubic\centi\meter}\\
+    \Delta \rho_{verre} =  \qty{0.8}{\gram\per\cubic\centi\meter}
+\end{gather*}
+
+Un alliage typique d'aluminium utilisé dans l'aéronautique comme celui utilisé pour nos mesures possède une masse volumique d'environ 2.73 \si{\gram\per\cubic\centi\meter}~\cite{almet2020}.
+On a alors :
+\begin{gather*}
+    \rho_{aluminium} =  \qty{2.73\pm 0.1}{\gram\per\cubic\centi\meter}
+\end{gather*}
+
+Enfin, nous calculons le rapport entre la performance du matériau et sa masse volumique en prenant les forces avant rupture de chaque matériau (table~\ref{tab:comparaison_materiaux}):
+
+\begin{gather*}
+    R^{pm}_{carbone} = \frac{F_{carbone}}{\rho_{carbone}} = \frac {21149}{1.423} = \qty[parse-numbers=false]{1.486\cdot 10^4}{\newton\centi\meter\per\gram}\\[5pt]
+    R^{pm}_{verre} = \frac{F_{verre}}{\rho_{verre}} = \frac {10286}{1.378} = \qty[parse-numbers=false]{7.471\cdot 10^3 }{\newton\centi\meter\per\gram}\\[5pt]
+    R^{pm}_{aluminium} = \frac{F_{aluminium}}{\rho_{aluminium}} = \frac {9584}{2.7} = \qty[parse-numbers=false]{3.549\cdot 10^3 }{\newton\centi\meter\per\gram}
+\end{gather*}
+
+
+Les dérivées partielles de $R$ sont calculées comme suit
+\[
+\frac{\partial R}{\partial F} = \frac{1}{\rho}, \quad
+\frac{\partial R}{\partial \rho} = -\frac{F}{\rho^2}
+\]
+Ce qui nous donnes la formule d'incertitude suivante :
+\[
+\Delta R = \sqrt{
+\left( \frac{\Delta F}{\rho} \right)^2 +
+\left( \frac{F \Delta \rho}{\rho^2} \right)^2
+}
+\]
+
+Encore une fois par application numérique d'après~\ref{tab:comparaison_materiaux} :
+
+\begin{gather*}
+    \Delta R^{pm}_{carbone} = \qty[parse-numbers=false]{4\cdot 10^3}{\newton\centi\meter\per\gram}\\[5pt]
+    \Delta R^{pm}_{verre} = \qty[parse-numbers=false]{4\cdot 10^3}{\newton\centi\meter\per\gram}\\[5pt]
+    \Delta R^{pm}_{aluminium} = \qty[parse-numbers=false]{1\cdot 10^2}{\newton\centi\meter\per\gram}
+\end{gather*}
+
+\vspace{100pt}
+
+\begin{table}[h!]
+    \centering
+    \caption{Résumé des propriétés des matériaux et performances}
+    \label{tab:resume_materiaux}
+    \renewcommand{\arraystretch}{1.5}
+    \begin{tabular}{|c|c|p{4cm}|}
+        \hline
+        \textbf{Matériau} & \textbf{Masse Volumique (\si{\gram\per\cubic\centi\meter})} & \textbf{Rapport Performance/Masse (\si{\newton\centi\meter\per\gram})} \\ \hline
+        Fibre de carbone & $1.423 \pm 0.4$ & $1.486 \cdot 10^4 \pm 4 \cdot 10^3$ \\ \hline
+        Fibre de verre & $1.378 \pm 0.8$ & $7.471 \cdot 10^3 \pm 4 \cdot 10^3$ \\ \hline
+        Aluminium & $2.73 \pm 0.1$ & $3.549 \cdot 10^3 \pm 1 \cdot 10^2$ \\ \hline
+    \end{tabular}
+\end{table}
+
+
+Les incertitudes ne nous empêche donc pas de conclure sur l'efficacité de ces matériaux.
+En révanche, il aurait pu être intéressant d'effectuer les mesures plusieurs afin d'obtenir une incertitude plus faible et de repérer des éventuelles erreurs de mesures.
+Il aurait aussi pu être pertinent d'effectuer des mesures sur une variété plus large d'éprouvettes de tests et sur d'autres axes et contraintes comme la torsion ou le cisaillement pour conforter nos affirmations.
+
+
+Finalement, pour une même masse volumique, le matériau à base de fibres de carbone est approximativement deux fois plus performant que celui à fibre de verre, et approximativement quatre fois plus que l'aluminium.
+On remarque surtout la différence entre la fibre de verre et l'aluminium du point de vue du rapport performance/masse contrairement aux performances brutes, où la différence était largement moindre.
+
+
+L'aluminium trouve son intérêt dans ses propriétés plastiques qui permettent d'absorber bien plus effacement l'énergie lors de choc par exemple.
+Les matériaux composites, essentiellement ceux à base de fibre, possèdent des propriétés mécaniques qui restent plus intéressante en aéronautique grâce à leur faible masse volumique.

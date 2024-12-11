@@ -1,9 +1,12 @@
 \begin{tikzpicture}
+
     \begin{axis}[
         xlabel={Allongement [\%]},
-        ylabel={Force standard [N]}
+        legend style={font=\footnotesize},
+        legend pos=north west
     ]
-        \addplot[domain=0:0.6, blue, thick] {34714*x + 200.13}; % y = 0.99x + 1.1 (Example equation)
+        \addplot[domain=0:0.6, blue, thick] {35232.22226*x};
+        \addlegendentry{y = 35232x,$R^2 = 0,9986$}
         \addplot
         [
             only marks,

@@ -2,13 +2,13 @@
 %! Date = 24/09/2024
 
 % Preamble
-\documentclass[a4paper, 11pt]{report}
+\documentclass[a4paper, 12pt]{report}
 
 % Packages
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{svg}
-\usepackage{fancyhdr} % En-têtes et pieds de page
+\usepackage{fancyhdr}
 \usepackage[hidelinks]{hyperref}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -18,29 +18,51 @@
 \usepackage{array}
 \usepackage{float}
 \usepackage{geometry}
+\usepackage{siunitx}
 \usepackage[squaren,Gray]{SIunits}
-
-%\titleformat{\chapter}[display] % [display] pour un format de titre de chapitre
-%  {\normalfont\huge\bfseries}    % Style du titre (par exemple, gros et en gras)
-%  {}                              % Ne pas afficher le numéro
-%  {0pt}                            % Pas d'espacement avant le titre
-%  {}                              % Pas de format spécifique après le titre
+\usepackage{titlesec}
+\usepackage{subcaption}
+\usepackage{enumitem}
 
 
+\titleformat{\chapter}
+  {\Large\bfseries} % format
+  {}                % label
+  {0pt}             % sep
+  {\huge}           % before-code
+
+
+
+\setlist[enumerate]{itemsep=10pt}
+\setlength{\parindent}{0pt}
 \geometry{hmargin=2.54cm,vmargin=2.5cm}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{Nom du projet}
+\fancyhead[L]{Les matériaux composites dans l'aéronautique sont-ils bénéfiques ou nuisibles ?}
 \fancyfoot[C]{\thepage}
+\setcounter{tocdepth}{1}
+
+
+
+
+\renewcommand{\thechapter}{\Roman{chapter}}
+\titleformat{\chapter}[hang]
+  {\normalfont\huge\bfseries}{\thechapter.}{1em}{}
 
 % Document
 \begin{document}
     \input{titlepage}
 
+    \input{introduction}
+
     \tableofcontents
 
-    \input{introduction}
     \input{definition}
     \input{avantage-inconveniant}
     \input{analyse}
+    \input{conclusion}
+
+    \bibliographystyle{unsrt}
+    \bibliography{refs}
+
 \end{document}

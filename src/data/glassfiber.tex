@@ -2,9 +2,12 @@
     \begin{axis}[
         title={},
         xlabel={Allongement [\%]},
-        ylabel={Force standard [N]}
+        ylabel={Force standard [N]},
+        legend style={font=\footnotesize},
+        legend pos=north west
     ]
         \addplot [domain=0:2, blue, thick] {5918.388445*x};
+        \addlegendentry{y = 5918.39x, R² = 0.9965}
         \addplot
         [
             only marks,
